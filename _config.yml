@@ -2,10 +2,10 @@
 title: Han's here
 SEOTitle: Towdium's here | A personal blog
 header-img: https://source.unsplash.com/collection/645108/2600x500
-email: towdium@gmail.com
-description: "这里是 Towdium 的个人博客，分享我的一些学习记录，以及日常的碎碎念"
-keyword: "Towdium"
-url: "http://towdium.github.io"              # your host, for absolute URL
+email: seanzxhan@gmail.com
+description: "这里是 Han 的个人博客，分享我的一些学习记录，以及日常的碎碎念"
+keyword: "Han"
+url: "http://lintucho.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -15,7 +15,7 @@ future: false
 RSS: true
 weibo_username:     5092127194
 #zhihu_username:     huxpro
-github_username:    towdium
+github_username:    lintucho
 #twitter_username:   huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
@@ -96,11 +96,11 @@ service-worker: true
 
 # Friends
 friends: [
-    {
-        title: "Shell Cottage",
-        href: "http://shellcottage.me/"
-    },{
-        title: "酒石酸菌",
-        href: "https://tartaricacid.github.io/"
-    }
+    # {
+    #     title: "Shell Cottage",
+    #     href: "http://shellcottage.me/"
+    # },{
+    #     title: "酒石酸菌",
+    #     href: "https://tartaricacid.github.io/"
+    # }
 ]
