@@ -120,40 +120,29 @@ AutoConfigurationImportSelector 使用 `org.springframework.boot.autoconfigure.A
 
 注解的依赖关系如下图所示：
 
-![SpringBootApplication-diagram.png](/_posts/2020/assets/SpringBootApplication-diagram-0384272.png)
+![SpringBootApplication-diagram.png](/img/posts/2020/SpringBootApplication-diagram.png)
 
-**## @Condition**
 
-在任意的 AutoConfiguration 文件中  存在注解 org.springframework.boot.autoconfigure.condition ， 具体注解如下：
+## @Condition
 
-[Conditional注解](https://www.notion.so/c35d14932c884b28a21d83b25314ab33)
+在任意的 AutoConfiguration 文件中  存在注解 org.springframework.boot.autoconfigure.condition 
 
 以 `@ConditionalOnWebApplication` 注解为例
-
-​    /**
-
-​     \* {@link Conditional @Conditional} that matches when the application is a web
-
-​     \* application. By default, any web application will match but it can be narrowed using
-
-​     \* the {@link #type()} attribute.
-
+```java
+    /**
+​     * {@link Conditional @Conditional} that matches when the application is a web
+​     * application. By default, any web application will match but it can be narrowed using
+​     * the {@link #type()} attribute.
 ​     *
-
-​     \* @author Dave Syer
-
-​     \* @author Stephane Nicoll
-
-​     \* @since 1.0.0
-
+​     * @author Dave Syer
+​     * @author Stephane Nicoll
+​     * @since 1.0.0
 ​     */
 
 ​    @Target({ ElementType.TYPE, ElementType.METHOD })
-
 ​    @Retention(RetentionPolicy.RUNTIME)
-
 ​    @Documented
-
 ​    @Conditional(OnWebApplicationCondition.class)
-
 ​    public @interface ConditionalOnWebApplication
+```
+​    
