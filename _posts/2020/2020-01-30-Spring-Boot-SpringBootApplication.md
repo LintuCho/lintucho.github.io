@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Spring Boot: 入口类和@SpringBootApplication
+title: Spring Boot 入口类和@SpringBootApplication
 date: 2020-01-30T00:00:00.000Z
 author: Hanx
-catalog:    true
+catalog:  true
 tags:
   - Spring
   - SpringBoot
